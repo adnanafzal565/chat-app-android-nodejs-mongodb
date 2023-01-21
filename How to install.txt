@@ -1,3 +1,10 @@
+
+# Android chat app - Kotlin, Node JS, Mongo DB
+
+We created a chat application in native android using Kotlin, Node JS and Mongo DB.
+
+# How to install
+
 - Make sure you have downloaded and installed Node JS and Mongo DB in your system.
 
 - Open command prompt or terminal inside "api" folder and run the following commands one-by-one:
@@ -18,5 +25,14 @@
 - Paste it in "android/app/src/main/java/com/adnantech/chatapp_free_version/utils/MySharedPreference.kt" at line 12
 
 - Also paste it in "api/server.js" variable named "global.apiURL"
+
+- Then goto "https://console.firebase.google.com/" and create a new project.
+- Select "android" app
+- Select the package as "com.adnantech.chatapp_free_version"
+- Download the "google-services.json" file and paste it inside your "android/app" folder.
+- Then go to "Project settings"
+- And go to "Service accounts" tab.
+- Select "Firebase admin SDK" and select "Node.js"
+- Click on button "Generate new private key"
 
 If you need any help, feel free to contact us: support@adnan-tech.com

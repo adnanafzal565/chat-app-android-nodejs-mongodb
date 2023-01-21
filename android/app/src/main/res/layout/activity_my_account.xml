@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <RelativeLayout
+        android:id="@+id/layoutImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/default_profile" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_toRightOf="@+id/image"
+            android:background="@drawable/rounded_corners_btn"
+            android:padding="5dp"
+            android:src="@drawable/ic_edit"
+            android:tint="@color/white"
+            android:translationX="-20dp"
+            android:translationY="-20dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lblPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutImage"
+        android:layout_marginTop="100dp"
+        android:text="Phone"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblPhone"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/gray"
+        android:enabled="false"
+        android:hint="Your phone"
+        android:inputType="phone"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPhone"
+        android:layout_marginTop="30dp"
+        android:text="Name"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblName"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/gray"
+        android:hint="Enter name"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_corners_btn"
+        android:text="Update" />
+
+</RelativeLayout>

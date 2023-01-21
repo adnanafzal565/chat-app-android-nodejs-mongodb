@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "fcm-notification": "^2.0.0",
+    "firebase-admin": "^11.1.0",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.10.0",
+    "socket.io": "^4.5.2"
+  }
+}

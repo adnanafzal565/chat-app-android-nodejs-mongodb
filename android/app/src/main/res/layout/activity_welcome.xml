@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:rotation="300"
+        android:src="@drawable/user1"
+        android:translationX="-20dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/user2" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/user2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/user3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:rotation="50"
+        android:src="@drawable/user4"
+        android:translationX="20dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/user3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/user5" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Welcome to MyChat !"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Best chat app for you to do private and group chat. Share status and stories with your friends."
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corners_btn"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Get started"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

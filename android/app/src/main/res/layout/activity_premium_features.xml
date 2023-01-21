@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End-to-end encryption"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Usually we use encryption but on server side. It has a security issue i.e. plain messages are transmitted through a network that can be read or altered in-transit." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="But in this app, we have implemented end-to-end encryption means the encryption and decryption is done on client side rather than on server side. Client will encrypt the message and send it to the server. Server will send the encrypted message to the receiver and the receiver client will do the decryption. So even the server will not be able to read your messages." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="We will be using the AES-256-bit length key to generate secret keys. All messages are sent to the server after encryption. So data will remain safe in-transit." />
+
+        <WebView
+            android:id="@+id/ytEncryption"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Voice notes"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sending voice notes is a quick way to send messages especially when you are in places when you are in hurry. Instead of typing the message which might cause spelling mistake, you can simply record your audio and send it directly to the receiver inside the app. No need to record the audio from a separate app and attach the audio in a message. You can also listen to your sent or received voice notes within the app." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="If you use WhatsApp, you already know how voice notes work. You will learn how to record audio from your android phone and save it in your phone’s storage. Once stored, we will send that MP3 file to the Node JS server. The server will save the file. The user will be able to play that audio from the URL." />
+
+        <WebView
+            android:id="@+id/ytVoiceNotes"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Group chat"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Users can chat in groups. Create as many groups as you want. Add members to them and start chatting. What makes it different from other chat apps ? First, it does not allow anyone to add you to a group. You will be invited. You will only start receiving the group notifications when you accept the invitation. Second, this app displays a list of all groups separately. So you can know in which groups you are currently in." />
+
+        <WebView
+            android:id="@+id/ytGroups"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Share status that disappears after 24 hours"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="In this tutorial, you will:
+
+Be able to share your status with all your contacts
+Exclude some contacts from viewing your status
+Create multiple lists (e.g. friends, family, colleagues, etc.) so you won’t have to select the contacts each time you upload a status
+See contacts who have viewed your status/story
+Download the image or video of status" />
+
+        <WebView
+            android:id="@+id/ytStatus"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Seen/unseen messages (blue ticks)"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="In this part, you will learn how to:
+
+Install sockets in android
+Connect android sockets with the Node JS server
+Get real-time events on new message
+Mark messages as read and un-read
+Get bluetick (like WhatsApp) when the user sees your message" />
+
+        <WebView
+            android:id="@+id/ytBlueticks"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Search messages"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Learn how to apply case in-sensitive sub-string search on all the messages in a chat with any of your contact. You can write any part of text of message and the app will show you the messages that matched your searched string." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Although the messages are end-to-end encrypted, which means that the server will not be able to apply search because server can’t read your messages. But we still found a way to apply search on end-to-end encrypted messages." />
+
+        <WebView
+            android:id="@+id/ytSearchMessages"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Chat attachments"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Users can attach files in chat messages as well. Images and videos are not compressed at all. So the receiver will see the image in its original quality." />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@drawable/rounded_corners_dialog">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/default_profile" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="30dp"
+        android:text="Congratulations !"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="30dp"
+        android:text="Your account is ready to use. You will be redirected to the home page in few seconds."
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/spinner" />
+
+</RelativeLayout>

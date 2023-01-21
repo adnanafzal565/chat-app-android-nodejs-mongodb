@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_android"
+        android:tint="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="50dp"
+        android:text="Login to your account"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/gray"
+        android:hint="Enter phone"
+        android:inputType="phone"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPhone"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/gray"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_corners_btn"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/layoutRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/lblDontHaveAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account ?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toEndOf="@+id/lblDontHaveAccount"
+            android:text="Register"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -5,10 +5,21 @@ We created a chat application in native android using Kotlin, Node JS and Mongo 
 # Screenshots
 
 <p float="left">
-    <img src="https://adnan-tech.com/uploads/Welcome.png" width="300" />
-    <img src="https://adnan-tech.com/uploads/Register.png" width="300" />
-    <img src="https://adnan-tech.com/uploads/android-chat-app-login.png" width="300" />
-    <img src="https://adnan-tech.com/uploads/My-profile.png" width="300" />
+    <img src="https://adnan-tech.com/uploads/Welcome.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Register.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/android-chat-app-login.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/My-profile.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Profile-updated.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Permissions.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Contacts-list.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Chat-activity.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Create-group.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Groups-list.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Group-message.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Share-status-or-story.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Select-contacts-to-add-in-list.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Select-contacts-to-exclude.png" width="250" />
+    <img src="https://adnan-tech.com/uploads/Left-menu-drawer-layout.png" width="250" />
 </p>
 
 # How to install

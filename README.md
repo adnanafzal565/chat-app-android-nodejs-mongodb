@@ -4,7 +4,10 @@ We created a chat application in native android using Kotlin, Node JS and Mongo 
 
 # Screenshots
 
-<img src="https://adnan-tech.com/uploads/Welcome.png" width="200" />
+<img src="https://adnan-tech.com/uploads/Welcome.png" width="300" />
+<img src="https://adnan-tech.com/uploads/Register.png" width="300" />
+<img src="https://adnan-tech.com/uploads/android-chat-app-login.png" width="300" />
+<img src="https://adnan-tech.com/uploads/My-profile.png" width="300" />
 
 # How to install
 

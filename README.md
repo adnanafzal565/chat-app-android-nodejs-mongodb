@@ -1,7 +1,10 @@
-
 # Android chat app - Kotlin, Node JS, Mongo DB
 
 We created a chat application in native android using Kotlin, Node JS and Mongo DB.
+
+# Screenshots
+
+<img src="https://adnan-tech.com/uploads/Welcome.png" width="200" />
 
 # How to install
 

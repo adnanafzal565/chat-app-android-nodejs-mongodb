@@ -16,6 +16,8 @@ class PremiumFeaturesActivity : AppCompatActivity() {
 
         title = "Premium features"
 
+        renderYTVideo(findViewById(R.id.ytSearchVoiceNotes), "mOAEZTs5AlY")
+        renderYTVideo(findViewById(R.id.ytSearchImages), "aw-z7Dq7TuA")
         renderYTVideo(findViewById(R.id.ytEncryption), "wfSR02tOiXo")
         renderYTVideo(findViewById(R.id.ytVoiceNotes), "fVhWyxjJyDs")
         renderYTVideo(findViewById(R.id.ytGroups), "HWf7QHTDDeM")

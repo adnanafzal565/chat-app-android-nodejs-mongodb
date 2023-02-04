@@ -14,6 +14,50 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Search voice notes"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="We implemented a search on audio messages. If you remember any of the word in the audio message, you can simply type it in search field and the app will show you only the audio messages that has the searched text in it. We are using DeepGram API for this." />
+
+        <WebView
+            android:id="@+id/ytSearchVoiceNotes"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search on images"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Suppose your friend sent you an image a long time ago. And since then you both had sent more than 1000 messages to each other. Now you want to find that image. It would take a lot of time to scroll up to the image. But you remember one of the line from the image. So instead of scrolling-up, you simply go to the user profile and search the image by typing the text in it. The app will show you the images that has the text in it that you searched for." />
+
+        <WebView
+            android:id="@+id/ytSearchImages"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="WebViewLayout" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="End-to-end encryption"
             android:textColor="@color/black"
             android:textSize="30sp"

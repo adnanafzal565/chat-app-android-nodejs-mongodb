@@ -12,7 +12,7 @@ var CryptoJS = require("crypto-js")
 
 const admin = require("firebase-admin")
 var fcm = require('fcm-notification')
-var serviceAccount = require("../chat-app-6302f-firebase-adminsdk-y8ygk-d0ada11ee9.json")
+var serviceAccount = require("../chat-app-6302f-firebase-adminsdk-y8ygk-d2b015c76c.json")
 const certPath = admin.credential.cert(serviceAccount)
 var FCM = new fcm(certPath)
 

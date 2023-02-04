@@ -58,7 +58,7 @@ const chats = require("./modules/chats")
 app.use("/uploads", express.static(__dirname + "/uploads"))
 
 const users = []
-global.apiURL = "http://192.168.8.100:3000"
+global.apiURL = "http://192.168.8.101:3000"
 
 const port = process.env.PORT || 3000
 http.listen(port, function () {

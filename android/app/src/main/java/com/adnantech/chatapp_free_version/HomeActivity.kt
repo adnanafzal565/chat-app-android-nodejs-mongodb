@@ -380,6 +380,7 @@ class HomeActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 },
                 Response.ErrorListener { error ->
                     Log.i("myLog", "error = " + error)
+                    Utility.showAlert(this, "Error", error.toString())
                 }
             ) {
                 override fun getHeaders(): MutableMap<String, String> {

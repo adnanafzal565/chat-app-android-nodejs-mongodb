@@ -9,7 +9,7 @@ class MySharedPreference {
     fun getAPIURL(context: Context): String {
         val preference: SharedPreferences =
             context.getSharedPreferences(this.fileName, Context.MODE_PRIVATE)
-        return preference.getString("API_URL", "http://192.168.8.101:3000").toString()
+        return preference.getString("API_URL", "http://192.168.8.100:3000").toString()
     }
 
     fun setAPIURL(context: Context, apiUrl: String) {

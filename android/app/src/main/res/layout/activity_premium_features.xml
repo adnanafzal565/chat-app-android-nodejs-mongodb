@@ -3,11 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="20dp">
+    android:layout_height="match_parent">
 
-    <LinearLayout
+    <WebView
+        android:id="@+id/webview"
         android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
@@ -236,6 +241,6 @@ Get bluetick (like WhatsApp) when the user sees your message" />
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="Users can attach files in chat messages as well. Images and videos are not compressed at all. So the receiver will see the image in its original quality." />
-    </LinearLayout>
+    </LinearLayout>-->
 
 </ScrollView>
